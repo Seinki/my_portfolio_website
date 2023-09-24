@@ -1,0 +1,128 @@
+/* untuk tombol experiences */
+
+/* Navbar fixed */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff; /* Atur latar belakang sesuai kebutuhan Anda */
+  z-index: 1000; /* Mengatur z-index agar navbar muncul di atas konten lainnya */
+  /* Tambahkan gaya lain sesuai dengan desain Anda */
+}
+
+/* button nav, exp, contact */
+.button-nav, .textEXP {
+  color: rgb(200, 200, 200);
+}
+.button-send-email {
+  color: white;
+  background-color: rgb(59 130 246);
+}
+.button-send-email:hover {
+  color: white;
+  background-color: rgb(37 99 235);
+}
+
+.button-container {
+    display: flex;
+    /* position: fixed; */
+  }
+  
+  .toggle-button {
+    margin-right: 10px;
+  }
+  
+  .content-wrapper {
+    position: relative;
+  }
+  
+  .content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .content.active {
+    opacity: 1;
+    max-height: 1000px; /* Nilai yang cukup besar untuk mengakomodasi konten */
+  }
+  
+  /* animasi untuk nama di hero section */
+  
+  .typewriter {
+    border-right: 2px solid grey;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding-right: 5px;
+    display: inline-block;
+    animation: typing 3s steps(30, end), infinite;
+  }
+  
+  /* Animasi mengetik */
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+  }
+  
+  /* Stil untuk kursor berkedip */
+  .blink-caret {
+    font-size: 0.8em;
+    animation: blink-caret .75s step-end infinite;
+  }
+  
+  /* Animasi cursor berkedip */
+  @keyframes blink-caret {
+    from, to {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+  }
+  
+  /* Jeda setelah animasi mengetik selesai */
+  @keyframes pause-typing {
+    from, to {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    51%, 100% {
+        width: 0;
+    }
+  }
+  
+.basis-custom {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.boxs-1 {
+  background-color: rgb(37 150 235);
+  width: 60%;
+  margin: auto;
+  padding: 0;
+  border-radius: 25px;
+  transform: rotate(-10deg);
+}
+.boxs-2 {
+  background: linear-gradient(to bottom, white, rgb(180, 180, 180));
+  border-radius: 25px;
+  transform: rotate(10deg);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.img-heroheader {
+  transform: scaleX(-1);
+}
+
+.btn-custom {
+  background-color: rgb(37 150 235);
+}

@@ -1,0 +1,132 @@
+{
+  "main": {
+    "dataPersonalUmum": {
+      "name": {
+        "first": "Seinki An",
+        "last": "na Lesmana"
+      },
+      "phone": "+62 8957-0774-9900",
+      "email": "seinkiannalesmana",
+      "address": {
+        "district": "Kiaracondong",
+        "city": "Bandung",
+        "country": "Indonesia",
+        "postalCode": "40282"
+      }
+    },
+    "imgHeroHeader": "/src/assets/img/avatar-heroheader-transparent.png",
+    "descHero" : "Welcome! I am a graduate from a vocational school majoring in Computer Network Engineering, and I have accumulated several IT certificates that reflect my passion and commitment to the IT field. While direct experience is yet to be gained, my enthusiasm for learning and dedication is prepared to tackle new challenges in this field. I am excited to contribute and continue growing in the dynamic world of technology.",
+    "social": {
+      "instagram": {
+        "link": "https://www.instagram.com/sal_seinki",
+        "title": "@sal_seinki",
+        "srcIcon": "/src/assets/img/Instagram.svg"
+      },
+      "github": {
+        "link": "https://github.com/Seinki",
+        "title": "Seinki",
+        "srcIcon": "/src/assets/img/Github.svg"
+      },
+      "linkedin": {
+        "link": "https://www.linkedin.com/in/seinkiannalesmana/",
+        "title": "Seinki Anna lesmana",
+        "srcIcon": "/src/assets/img/Linkedin.svg"
+      },
+      "resume": {
+        "link": "https://www.linkedin.com/in/seinkiannalesmana/",
+        "title": "Resume Seinki Anna lesmana",
+        "srcIcon": "/src/assets/img/resume.png"
+      }
+    },
+    "skills": {
+      "specialized1": {
+        "icon": "/src/assets/img/icons-skills/computer-support-50.png",
+        "title": "IT Support",
+        "description": "To provide technical assistance to users, troubleshoot network, hardware and software issues, maintain system security, and ensure the smooth operation of information technology infrastructure."
+      },
+      "specialized2": {
+        "icon": "/src/assets/img/icons-skills/coding-50.png",
+        "title": "Frontend Development",
+        "description": "To Design and develop responsive and engaging user interfaces using web technologies such as HTML, CSS, and JavaScript."
+      },
+      "specialized3": {
+        "icon": "/src/assets/img/icons-skills/cyber-security-50.png",
+        "title": "Ethical Hacking: Pentester",
+        "description": "To safeguard computer systems and networks by identifying potential vulnerabilities through legitimate penetration testing to prevent attacks and security breaches."
+      },
+      "Tools": {
+        "IconsHTML": "/src/assets/img/icons-tools/icons8-html-5.svg",
+        "IconsCSS": "/src/assets/img/icons-tools/icons8-css.svg",
+        "IconsJavaScript": "/src/assets/img/icons-tools/icons8-javascript.svg",
+        "IconsBootstrap": "/src/assets/img/icons-tools/icons8-bootstrap.svg",
+        "IconsTailwindCSS": "/src/assets/img/icons-tools/icons8-tailwindcss.svg",
+        "IconsReactJS": "/src/assets/img/icons-tools/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
+        "IconsViteJS": "/src/assets/img/icons-tools/icons8-vite.svg",
+        "IconsLinux": "/src/assets/img/icons-tools/icons8-linux-96.png",
+        "IconsGit": "/src/assets/img/icons-tools/icons8-git.svg",
+        "IconsGitHub": "/src/assets/img/icons-tools/icons8-github.svg",
+        "IconsVSCode": "/src/assets/img/icons-tools/icons8-vs-code.svg",
+        "IconsVirtualBox": "/src/assets/img/icons-tools/icons8-virtualbox.svg"
+      }
+    },
+    "portfolios": {
+      "uiux" : {
+        "icon": "/src/assets/img/icons-portfolios/figma-480.png",
+        "title": "Figma",
+        "description": "UI/UX Implementation",
+        "link": "https://www.figma.com/file/YvxnkuoZ278fq4YZXrPMCv/Tugas-Project-UI-(RubicWeb---Seinki)?type=design&node-id=0%3A1&mode=design&t=ytxRU6aK5iecyHVi-1"
+      },
+      "ecommerce" : {
+        "icon": "/src/assets/img/icons-portfolios/webdev-portfolio2.jpg",
+        "title": "Frontend Development",
+        "description": "UI/UX Implementation",
+        "link": "http://https://drive.google.com/drive/folders/16RPhaKJZ9xrbgF3awmN_AOH_zDG6cg-L?usp=drive_link"
+      },
+      "webDevPortfolio" : {
+        "icon": "/src/assets/img/icons-portfolios/webdev-portfolio.jpg",
+        "title": "Frontend Development",
+        "description": "Development this web portfolio",
+        "link": ""
+      }
+    },
+    "experience": {
+      "exp1": {
+        "title": "Ninja Xpress",
+        "jobdesc": "Staff Warehouse / DWS Operation",
+        "address": "Pakemitan, Cinambo, Bandung City, West Java",
+        "date": "Desember 2021 - Present : Part Time",
+        "tools": ["ATS Scanner", "DWS Scanner"],
+        "description": {
+          "desc1": [
+            "Scan the package with a device scanner or special scanning device to be sorted based on",
+            "the destination of the package and so that the data is from the receipt numberautomatically input."
+          ],
+          "desc2": [
+            "Then scan the package using a special computer called DWS (Dimentation, Weight, and Scanning)",
+            "to get more accurate databased on dimensions, weight, size and visual shape of a package."
+          ],
+          "desc3": [
+            "Create and prepare a special barcode for each sack that will",
+            "be filled in the packagebased on data from the system."
+          ],
+          "desc4": [
+            "As well as re-scanning the package using a special scanner device from the resultsDWS (Dimentation, Weight, and Scanning)",
+            "scan to enter sacks (depending on the weight and size of the package) ready to be loaded onto the truck logistics."
+          ]
+        }
+      },
+      "exp2": {
+        "title": "Jati kopi",
+        "jobdesc": "Server / Waiter",
+        "address": "Malabar, Lengkong, Bandung City, West Java 40282",
+        "date": "Maret 2020 - November 2021 : Full Time",
+        "description": [
+          "Taking Orders: Receiving food and drink orders from customers.",
+          "Food Serving: Delivering food and drinks to the customers table.",
+          "Customer Service: Providing assistance, answering questions, and ensuring customer comfort.",
+          "Payment: Handling customer payments and bills."
+        ]
+      }
+    }
+  }
+}
