@@ -19,19 +19,22 @@ export default function Navbar() {
               href="#services"
               className="text-gray-400 duration-75 ease-in-out hover:text-white"
               >
-              <span>Services</span>
+              <span>About</span>
             </a>
             <a
               href="#portfolio"
               className="text-gray-400 duration-75 ease-in-out hover:text-white"
             >
-              <span>Portfolios</span>
+              <span>Experiences</span>
             </a>
             <a
               href="#experiences"
               className="text-gray-400 duration-75 ease-in-out hover:text-white"
             >
-              <span>Experiences</span>
+              <span>Skills</span>
+            </a>
+            <a href="#contact" className="text-gray-400 duration-75 ease-in-out hover:text-white">
+              <span>Portfolio</span>
             </a>
             <a href="#contact" className="text-gray-400 duration-75 ease-in-out hover:text-white">
               <span>Contact</span>
