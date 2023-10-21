@@ -107,7 +107,7 @@
 }
 .boxs-1 {
   background-color: rgb(37 150 235);
-  width: 60%;
+  width: 100%;
   margin: auto;
   padding: 0;
   border-radius: 25px;
@@ -119,9 +119,9 @@
   transform: rotate(10deg);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
-.img-heroheader {
+/* .img-heroheader {
   transform: scaleX(-1);
-}
+} */
 
 .btn-custom {
   background-color: rgb(37 150 235);
